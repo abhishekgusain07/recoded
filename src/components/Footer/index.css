@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 28px 0;
+  color: var(--footer-text);
+  font-size: 0.8em;
+  position: fixed;
+  flex-wrap: wrap;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 100%;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  height: 30px;
+}
+
+.footer-section p {
+  margin-right: 5px;
+}
+
+.footer-section a {
+  color: currentColor;
+  text-decoration: none;
+  width: max-content;
+}
+
+.footer-section > a {
+  margin-right: 5px;
+}
