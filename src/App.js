@@ -11,7 +11,8 @@ import './App.css';
 const SCALE = 2;
 
 function App() {
-  // TODO: Refactor this to use context API
+
+  // TODO : convert this into redux toolkit
   const backgroundRef = useRef(null);
   const [padding, setPadding] = useState(42);
   const [colors, setColors] = useState(COLORS[0]);
